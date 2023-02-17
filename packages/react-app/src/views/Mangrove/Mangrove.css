@@ -1,0 +1,114 @@
+#root {
+  height: 100%;
+}
+
+/* Container and Wrappers */
+.Mangrove-container {
+  background: linear-gradient(0deg, rgba(34, 102, 98, 0.06), rgba(34, 102, 98, 0.06)),
+    linear-gradient(180deg, #f1f8f7 0%, #e2f3e9 100%);
+  min-height: 100%;
+  padding-bottom: 50px;
+}
+
+.Mangrove-container header {
+  display: flex;
+  justify-content: space-between;
+  background: #ffffff;
+  width: 100%;
+  padding: 20px;
+  border-bottom: 1px solid #0d1329;
+}
+
+.Mangrove-container .content {
+  margin: 25px auto;
+  width: 95%;
+}
+
+/* Collapse */
+.Mangrove-container .collapsible-wrapper {
+  display: flex;
+  flex-direction: column;
+  background: #ebedef;
+  margin: 29px 0;
+  border-radius: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.Mangrove-container .collapsible-wrapper .collapsible-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: #fafafa;
+  padding: 20px;
+}
+
+.Mangrove-container h3,
+.Mangrove-container p {
+  margin: 0;
+}
+
+.Mangrove-container .collapsible-wrapper .collapsible-body {
+  margin: 20px;
+}
+
+.Mangrove-container .collapsible-wrapper .collapsible-body .cards-fisrt-row {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+}
+
+/* Cards */
+.Mangrove-container .collapsible-wrapper .card {
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.Mangrove-container .collapsible-wrapper .card-header {
+  background: #fafafa;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 36px;
+  border-radius: 12px 12px 0 0;
+}
+
+.Mangrove-container .collapsible-wrapper .card-content {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 0 0 12px 12px;
+}
+
+/* Payment-summary */
+.Mangrove-container .collapsible-wrapper .payment-summary {
+  width: 40%;
+}
+
+.Mangrove-container .collapsible-wrapper .payment-summary .card-content {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+}
+
+/* Contract-document */
+.Mangrove-container .collapsible-wrapper .contract-document {
+  width: 35%;
+}
+
+/* Stakeholders */
+.Mangrove-container .collapsible-wrapper .stakeholders {
+  width: 25%;
+}
+
+/* Storm-document */
+.Mangrove-container .collapsible-wrapper .storm-document {
+  width: 100%;
+}
+
+.Mangrove-container .collapsible-wrapper .storm-document .storm-table {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: 1fr 1fr;
+}
