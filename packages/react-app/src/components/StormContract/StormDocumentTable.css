@@ -1,0 +1,85 @@
+/* Table */
+.Mangrove-container .storm-document .storm-table {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.Mangrove-container .storm-document .storm-table:first-child {
+  text-transform: uppercase;
+  border-bottom: 1px solid #76bebe;
+  color: #647c82;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.Mangrove-container .storm-document .storm-table:first-child > div {
+  border: 0;
+  position: relative;
+}
+
+.Mangrove-container .storm-document .storm-table:first-child > div::after {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 15px;
+  right: -1px;
+  top: 33%;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.Mangrove-container .storm-document .storm-table:first-child > div:last-child::after {
+  display: none;
+}
+
+.Mangrove-container .storm-document .storm-table:first-child > div:last-child {
+  border-right: 0;
+}
+
+.Mangrove-container .storm-document .storm-table > div {
+  flex: 1;
+  padding: 10px 15px;
+}
+
+.Mangrove-container .storm-document .storm-table .select-document-colum {
+  width: 52px;
+  flex: 0;
+}
+
+.Mangrove-container .storm-document .storm-table.row {
+  font-size: 15px;
+}
+
+.Mangrove-container .storm-document .storm-table.row a {
+  color: #2d313e;
+}
+
+.Mangrove-container .storm-document .storm-table.row:nth-of-type(odd) {
+  background: #fafafa;
+}
+
+.Mangrove-container .storm-document .storm-table.row > div:first-child {
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* Storm-document */
+.Mangrove-container .card.storm-document {
+  width: 100%;
+  display: block;
+}
+
+.Mangrove-container .storm-document .card-header .export-storm-document {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 5px;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  color: #2c712a;
+}
+
+.Mangrove-container .storm-document .card-content {
+  padding: 0;
+  overflow: hidden;
+}

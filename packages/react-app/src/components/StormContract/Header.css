@@ -1,0 +1,24 @@
+.Mangrove-container header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  width: 100%;
+  padding: 20px;
+  border-bottom: 1px solid #0d1329;
+}
+
+.Mangrove-container header a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Mangrove-container header .profile {
+  color: #0d1329;
+  font-size: 16px;
+  font-weight: 600;
+  display: flex;
+  column-gap: 6px;
+  align-items: center;
+}

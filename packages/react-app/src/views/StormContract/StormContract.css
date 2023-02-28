@@ -1,0 +1,70 @@
+#root {
+  height: 100%;
+  font-family: "Roobert", sans-serif;
+}
+
+/* Global styles */
+.Mangrove-container {
+  background: linear-gradient(0deg, rgba(34, 102, 98, 0.06), rgba(34, 102, 98, 0.06)),
+    linear-gradient(180deg, #f1f8f7 0%, #e2f3e9 100%);
+  min-height: 100%;
+  padding-bottom: 50px;
+  color: #2d313e;
+}
+
+.Mangrove-container h1,
+.Mangrove-container h2,
+.Mangrove-container h3,
+.Mangrove-container p {
+  margin: 0;
+}
+
+.Mangrove-container h1 {
+  margin-left: 9px;
+  font-size: 21px;
+  color: #000000;
+  font-weight: normal;
+}
+
+.Mangrove-container h2 {
+  font-weight: 600;
+  font-size: 28px;
+  color: #3f5f69;
+}
+
+.Mangrove-container h3 {
+  font-weight: 600;
+  font-size: 21px;
+}
+
+/* Content */
+.Mangrove-container .content {
+  margin: 25px auto;
+  width: 95%;
+  max-width: 1500px;
+}
+
+/* Sign-transaction */
+.Mangrove-container .sign-transaction {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  margin: 20px 0 46px 0;
+}
+
+.Mangrove-container .sign-transaction button {
+  width: 169px;
+  height: 38px;
+  background: #0d1329;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.Mangrove-container .sign-transaction p {
+  font-weight: 400;
+  font-size: 17px;
+  text-align: right;
+  color: #3f5f69;
+}

@@ -1,0 +1,26 @@
+.Mangrove-container .collapsible-wrapper .collapsible-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: #fafafa;
+  border-radius: 12px;
+  padding: 20px 30px;
+  cursor: pointer;
+  box-shadow: 0px 46.7182px 70.487px rgba(0, 0, 0, 0.02), 0px 19.5177px 29.4478px rgba(0, 0, 0, 0.0143771),
+    0px 10.4351px 15.7442px rgba(0, 0, 0, 0.0119221), 0px 5.84984px 8.82607px rgba(0, 0, 0, 0.01),
+    0px 3.1068px 4.68746px rgba(0, 0, 0, 0.00807786), 0px 1.29281px 1.95056px rgba(0, 0, 0, 0.00562291);
+
+  font-size: 15px;
+}
+
+.Mangrove-container .collapsible-wrapper .collapsible-header .contract-status {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 20px;
+}
+
+.Mangrove-container .collapsible-wrapper .collapsible-header .contract-status.pending h3 {
+  color: #db8814;
+}

@@ -1,0 +1,20 @@
+/* Collapse */
+.Mangrove-container .collapsible-wrapper {
+  display: flex;
+  flex-direction: column;
+  max-height: 99px;
+  background: #f6f6f6;
+  margin: 29px 0;
+  border-radius: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  box-shadow: 0px 46.7182px 70.487px rgba(0, 0, 0, 0.02), 0px 19.5177px 29.4478px rgba(0, 0, 0, 0.0143771),
+    0px 10.4351px 15.7442px rgba(0, 0, 0, 0.0119221), 0px 5.84984px 8.82607px rgba(0, 0, 0, 0.01),
+    0px 3.1068px 4.68746px rgba(0, 0, 0, 0.00807786), 0px 1.29281px 1.95056px rgba(0, 0, 0, 0.00562291);
+  transition: all 0.3s;
+}
+
+.Mangrove-container .collapsible-wrapper.open {
+  max-height: 1000px;
+  transition: all 0.3s;
+}

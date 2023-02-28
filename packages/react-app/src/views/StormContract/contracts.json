@@ -1,0 +1,312 @@
+[
+  {
+    "active": true,
+    "open": true,
+    "header": {
+      "confirmationNumber": "62b1cafaa137f6821b11ddac",
+      "contractName": "SwissRe_OctDec_Amsterdam_Call",
+      "policyPeriod": {
+        "start": "2023-Jul-11",
+        "end": "2023-Jul-11"
+      },
+      "clientCompany": "Mangrove",
+      "clientID": "11ddac",
+      "githubUri": "github.com"
+    },
+    "contract": {
+      "paymentSummary": {
+        "subjectLoss": "＄250,000,000",
+        "totalLimit": "＄500,000,000",
+        "perEventLimit": "＄1,000,000",
+        "perEventAttachment": "＄50,000"
+      },
+      "contractDocument": [
+        { "name": "Location Exposure File", "type": "CSV", "data": "2023-Jul-11", "fileUri": "/" },
+        { "name": "Payout Factors Table", "type": "CSV", "data": "2023-Jul-11", "fileUri": "/" },
+        { "name": "Reinsurance Contract", "type": "PDF", "data": "2023-Jul-11", "fileUri": "/" }
+      ],
+      "stakeholders": {
+        "brokerID": "brokeIdbRokerId",
+        "cedentID": "cedentIDc3d3nt",
+        "reinsurerID": "reinsur3rID"
+      },
+      "stormDocument": [
+        {
+          "name": "Margot",
+          "date": "2023-Jul-11",
+          "grossLoss": "$5,500,000.00",
+          "subjectLoss": "$5,500,000.00",
+          "lossDetailFile": "/",
+          "fileType": "PDF",
+          "fileDate": "2023-Jul-11"
+        },
+        {
+          "name": "Margot",
+          "date": "2023-Jul-11",
+          "grossLoss": "$5,500,000.00",
+          "subjectLoss": "$5,500,000.00",
+          "lossDetailFile": "/",
+          "fileType": "CSV",
+          "fileDate": "2023-Jul-11"
+        },
+        {
+          "name": "Margot",
+          "date": "2023-Jul-11",
+          "grossLoss": "$5,500,000.00",
+          "subjectLoss": "$5,500,000.00",
+          "lossDetailFile": "/",
+          "fileType": "CSV",
+          "fileDate": "2023-Jul-11"
+        }
+      ]
+    }
+  },
+  {
+    "active": false,
+    "open": true,
+    "header": {
+      "confirmationNumber": "62b1cafaa137f6821b11ddac",
+      "contractName": "SwissRe_OctDec_Amsterdam_Call",
+      "policyPeriod": {
+        "start": "2023-Jul-11",
+        "end": "2023-Jul-11"
+      },
+      "clientCompany": "Mangrove",
+      "clientID": "11ddac",
+      "githubUri": "github.com"
+    },
+    "contract": {
+      "paymentSummary": {
+        "subjectLoss": "0",
+        "totalLimit": "＄500,000,000",
+        "perEventLimit": "＄1,000,000",
+        "perEventAttachment": "＄1,000,000"
+      },
+      "contractDocument": [
+        { "name": "Location Exposure Files", "type": "CSV", "data": "2023-Jul-11", "fileUri": "/" },
+        { "name": "Payout Factors Tables", "type": "CSV", "data": "2023-Jul-11", "fileUri": "/" },
+        { "name": "Reinsurance Contracts", "type": "PDF", "data": "2023-Jul-11", "fileUri": "/" }
+      ],
+      "stakeholders": {
+        "brokerID": "broker2ID",
+        "cedentID": "cedent2ID",
+        "reinsurerID": "reinsurer2ID"
+      },
+      "stormDocument": [
+        {
+          "name": "Margot",
+          "date": "2023-Jul-11",
+          "grossLoss": "$5,500,000.00",
+          "subjectLoss": "$5,500,000.00",
+          "lossDetailFile": "/",
+          "fileType": "CSV",
+          "fileDate": "2023-Jul-11"
+        },
+        {
+          "name": "Margot",
+          "date": "2023-Jul-11",
+          "grossLoss": "$5,500,000.00",
+          "subjectLoss": "$5,500,000.00",
+          "lossDetailFile": "/",
+          "fileType": "PDF",
+          "fileDate": "2023-Jul-11"
+        },
+        {
+          "name": "Margot",
+          "date": "2023-Jul-11",
+          "grossLoss": "$5,500,000.00",
+          "subjectLoss": "$5,500,000.00",
+          "lossDetailFile": "/",
+          "fileType": "CSV",
+          "fileDate": "2023-Jul-11"
+        }
+      ]
+    }
+  },
+  {
+    "active": true,
+    "open": false,
+    "header": {
+      "confirmationNumber": "62b1cafaa137f6821b11ddac",
+      "contractName": "SwissRe_OctDec_Amsterdam_Call",
+      "policyPeriod": {
+        "start": "2023-Jul-11",
+        "end": "2023-Jul-11"
+      },
+      "clientCompany": "Mangrove",
+      "clientID": "11ddac",
+      "githubUri": "github.com"
+    },
+    "contract": {
+      "paymentSummary": {
+        "subjectLoss": "",
+        "totalLimit": "",
+        "perEventLimit": "",
+        "perEventAttachment": ""
+      },
+      "contractDocument": [
+        { "name": "Location Exposure File", "type": "CSV", "data": "2023-Jul-11", "fileUri": "/" },
+        { "name": "Payout Factors Table", "type": "CSV", "data": "2023-Jul-11", "fileUri": "/" },
+        { "name": "Reinsurance Contract", "type": "PDF", "data": "2023-Jul-11", "fileUri": "/" }
+      ],
+      "stakeholders": {
+        "brokerID": "dfsdfssssdfsss",
+        "cedentID": "dfsdfssssdfsss",
+        "reinsurerID": "dfsdfssssdfsss"
+      },
+      "stormDocument": [
+        {
+          "name": "Margot",
+          "date": "2023-Jul-11",
+          "grossLoss": "$5,500,000.00",
+          "subjectLoss": "$5,500,000.00",
+          "lossDetailFile": "/",
+          "fileType": "CSV",
+          "fileDate": "2023-Jul-11"
+        },
+        {
+          "name": "Margot",
+          "date": "2023-Jul-11",
+          "grossLoss": "$5,500,000.00",
+          "subjectLoss": "$5,500,000.00",
+          "lossDetailFile": "/",
+          "fileType": "CSV",
+          "fileDate": "2023-Jul-11"
+        },
+        {
+          "name": "Margot",
+          "date": "2023-Jul-11",
+          "grossLoss": "$5,500,000.00",
+          "subjectLoss": "$5,500,000.00",
+          "lossDetailFile": "/",
+          "fileType": "CSV",
+          "fileDate": "2023-Jul-11"
+        }
+      ]
+    }
+  },
+  {
+    "active": false,
+    "open": false,
+    "header": {
+      "confirmationNumber": "62b1cafaa137f6821b11ddac",
+      "contractName": "SwissRe_OctDec_Amsterdam_Call",
+      "policyPeriod": {
+        "start": "2023-Jul-11",
+        "end": "2023-Jul-11"
+      },
+      "clientCompany": "Mangrove",
+      "clientID": "11ddac",
+      "githubUri": "github.com"
+    },
+    "contract": {
+      "paymentSummary": {
+        "subjectLoss": "",
+        "totalLimit": "",
+        "perEventLimit": "",
+        "perEventAttachment": ""
+      },
+      "contractDocument": [
+        { "name": "Location Exposure File", "type": "CSV", "data": "2023-Jul-11", "fileUri": "/" },
+        { "name": "Payout Factors Table", "type": "CSV", "data": "2023-Jul-11", "fileUri": "/" },
+        { "name": "Reinsurance Contract", "type": "PDF", "data": "2023-Jul-11", "fileUri": "/" }
+      ],
+      "stakeholders": {
+        "brokerID": "dfsdfssssdfsss",
+        "cedentID": "dfsdfssssdfsss",
+        "reinsurerID": "dfsdfssssdfsss"
+      },
+      "stormDocument": [
+        {
+          "name": "Margot",
+          "date": "2023-Jul-11",
+          "grossLoss": "$5,500,000.00",
+          "subjectLoss": "$5,500,000.00",
+          "lossDetailFile": "/",
+          "fileType": "CSV",
+          "fileDate": "2023-Jul-11"
+        },
+        {
+          "name": "Margot",
+          "date": "2023-Jul-11",
+          "grossLoss": "$5,500,000.00",
+          "subjectLoss": "$5,500,000.00",
+          "lossDetailFile": "/",
+          "fileType": "CSV",
+          "fileDate": "2023-Jul-11"
+        },
+        {
+          "name": "Margot",
+          "date": "2023-Jul-11",
+          "grossLoss": "$5,500,000.00",
+          "subjectLoss": "$5,500,000.00",
+          "lossDetailFile": "/",
+          "fileType": "CSV",
+          "fileDate": "2023-Jul-11"
+        }
+      ]
+    }
+  },
+  {
+    "active": true,
+    "open": false,
+    "header": {
+      "confirmationNumber": "62b1cafaa137f6821b11ddac",
+      "contractName": "SwissRe_OctDec_Amsterdam_Call",
+      "policyPeriod": {
+        "start": "2023-Jul-11",
+        "end": "2023-Jul-11"
+      },
+      "clientCompany": "Mangrove",
+      "clientID": "11ddac",
+      "githubUri": "github.com"
+    },
+    "contract": {
+      "paymentSummary": {
+        "subjectLoss": "",
+        "totalLimit": "",
+        "perEventLimit": "",
+        "perEventAttachment": ""
+      },
+      "contractDocument": [
+        { "name": "Location Exposure File", "type": "CSV", "data": "2023-Jul-11", "fileUri": "/" },
+        { "name": "Payout Factors Table", "type": "CSV", "data": "2023-Jul-11", "fileUri": "/" },
+        { "name": "Reinsurance Contract", "type": "PDF", "data": "2023-Jul-11", "fileUri": "/" }
+      ],
+      "stakeholders": {
+        "brokerID": "dfsdfssssdfsss",
+        "cedentID": "dfsdfssssdfsss",
+        "reinsurerID": "dfsdfssssdfsss"
+      },
+      "stormDocument": [
+        {
+          "name": "Margot",
+          "date": "2023-Jul-11",
+          "grossLoss": "$5,500,000.00",
+          "subjectLoss": "$5,500,000.00",
+          "lossDetailFile": "/",
+          "fileType": "CSV",
+          "fileDate": "2023-Jul-11"
+        },
+        {
+          "name": "Margot",
+          "date": "2023-Jul-11",
+          "grossLoss": "$5,500,000.00",
+          "subjectLoss": "$5,500,000.00",
+          "lossDetailFile": "/",
+          "fileType": "CSV",
+          "fileDate": "2023-Jul-11"
+        },
+        {
+          "name": "Margot",
+          "date": "2023-Jul-11",
+          "grossLoss": "$5,500,000.00",
+          "subjectLoss": "$5,500,000.00",
+          "lossDetailFile": "/",
+          "fileType": "CSV",
+          "fileDate": "2023-Jul-11"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,197 @@
+.Mangrove-container .collapsible-wrapper .collapsible-body {
+  display: block;
+  padding: 20px 20px 0 20px;
+}
+
+.Mangrove-container .collapsible-wrapper .collapsible-body .cards-first-row {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+}
+
+/* Cards */
+.Mangrove-container .collapsible-wrapper .card {
+  margin-bottom: 20px;
+  overflow: hidden;
+  display: flex;
+  flex-flow: column wrap;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+
+.Mangrove-container .collapsible-wrapper .card-header {
+  background: #fafafa;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 36px;
+}
+
+.Mangrove-container .collapsible-wrapper .view-code {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  column-gap: 5px;
+}
+
+.Mangrove-container .collapsible-wrapper .view-code a {
+  text-decoration: underline;
+  color: #2d313e;
+}
+
+.Mangrove-container .collapsible-wrapper .card-content {
+  background: #ffffff;
+  padding: 30px;
+  flex: 1 1 0%;
+}
+
+/* Payment-summary */
+.Mangrove-container .payment-summary {
+  width: 52%;
+}
+
+.Mangrove-container .payment-summary h4 {
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #6f8a90;
+}
+
+.Mangrove-container .payment-summary .card-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.Mangrove-container .payment-summary .payment-total-wrapper {
+  padding-right: 30px;
+  padding-top: 30px;
+}
+
+.Mangrove-container .payment-summary .payment-total {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Mangrove-container .payment-summary .payment-total .contract-subject-loss h4 {
+  color: #76bebe;
+}
+
+.Mangrove-container .payment-summary .payment-total .contract-subject-loss p {
+  font-weight: 600;
+  font-size: 24px;
+  color: #0d1329;
+}
+
+.Mangrove-container .payment-summary .payment-total .contract-total-limit h4 {
+  text-align: right;
+}
+
+.Mangrove-container .payment-summary .payment-total .contract-total-limit p {
+  font-weight: 600;
+  font-size: 16px;
+  text-align: right;
+  color: #0d1329;
+}
+
+.Mangrove-container .payment-summary .payment-per-limit {
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+.Mangrove-container .payment-summary .payment-per-limit p {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+/* Progress Bar */
+.Mangrove-container .payment-summary .progress-bar__container {
+  width: 369px;
+  height: 25px;
+  margin-top: 15px;
+  border-radius: 22px;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.5s;
+  will-change: transform;
+  box-shadow: 0 0 5px #dbe1e0;
+  background: #dbe1e0;
+}
+
+.Mangrove-container .payment-summary .progress-bar {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  content: "";
+  background-color: #91cbec;
+  padding: 3px 10px;
+  top: 0;
+  bottom: 0;
+  left: -100%;
+  border-radius: inherit;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: white;
+  font-family: sans-serif;
+}
+
+/* Payment-summary-pending */
+.Mangrove-container .payment-summary-pending {
+  width: 25%;
+}
+
+.Mangrove-container .payment-summary-pending .card-content p {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* Contract-document */
+.Mangrove-container .contract-document {
+  width: 35%;
+}
+
+.Mangrove-container .contract-document button {
+  width: 58px;
+  height: 29px;
+  background: #eaf2f0;
+  border: none;
+}
+
+.Mangrove-container .contract-document .card-content .document-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.Mangrove-container .contract-document .card-content .document-info:last-child {
+  border: none;
+}
+
+/* Contract-document-pending */
+.Mangrove-container .contract-document.contract-document-pending {
+  width: 50%;
+}
+
+/* Stakeholders */
+.Mangrove-container .stakeholders {
+  width: 25%;
+}
+
+.Mangrove-container .stakeholders .card-content p {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.Mangrove-container .stakeholders .card-content p:last-child {
+  border: none;
+}
